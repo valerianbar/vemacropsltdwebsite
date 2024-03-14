@@ -8,6 +8,7 @@ Rails.application.routes.draw do
   get "about", to: "pages#about"
   get "contact", to: "pages#contact"
   get "gallery", to: "pages#gallery"
+  resources :contacts, only: [:new, :create]
   # Defines the root path route ("/")
   # root "posts#index"
 end
