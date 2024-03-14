@@ -1,0 +1,36 @@
+
+
+.navbar-lewagon {
+  justify-content: space-between;
+  background: #cec568;
+  position: fixed;
+  width: 100%;
+  top: 0%;
+
+}
+
+.navbar-lewagon .navbar-collapse {
+  flex-grow: 0;
+}
+
+.navbar-lewagon .navbar-brand img {
+  width: 120px;
+}
+.nav-item{
+  // display: flex;
+  justify-content: space-between;
+  // width: 100%;
+   padding: 0 20px;
+  font-size: 25px;
+}
+@media only screen and (max-width: 500px){
+  .navbar-lewagon {
+    position: fixed;
+  }
+}
+@media only screen and (max-width: 749px){
+  .navbar-lewagon {
+    position: fixed;
+
+  }
+}
