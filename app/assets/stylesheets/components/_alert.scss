@@ -1,6 +1,10 @@
 .alert {
+  background-color: #071C1C;
+  opacity: 0.8;
+  color: white;
+  border-radius: 30px;
   position: fixed;
-  bottom: 16px;
-  right: 16px;
+  bottom: 140px;
+  right: 20px;
   z-index: 1000;
 }
