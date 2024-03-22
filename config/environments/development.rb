@@ -76,12 +76,12 @@ Rails.application.configure do
   config.action_controller.raise_on_missing_callback_actions = true
   config.action_mailer.delivery_method = :smtp
   # host = "https://git.heroku.com/vemacropslimitedwebsite.git"
-  config.action_mailer.default_url_options = { host: "vemacropslimitedwebsite.herokuapp.com" }
+  config.action_mailer.default_url_options = { host: "vemacrops.com" }
   config.action_mailer.smtp_settings = {
     address: "smtp.gmail.com",
     port: 587,
-    user_name: ENV.fetch["GMAIL_USERNAME"],
-    password: ENV.fetch["GMAIL_PASSWORD"],
+    user_name: ENV["GMAIL_USERNAME"],
+    password: ENV["GMAIL_PASSWORD"],
     authentication: "plain",
     enable_starttls_auto: true
   }
